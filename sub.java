@@ -1,7 +1,7 @@
 import java.util.*;
 public class Main {
    
-       public static int SumOfNumbers(int a,int b){
+       public static int SubOfNumbers(int a,int b){
            int sub=a-b;
            return sub;
        }
@@ -10,7 +10,7 @@ public class Main {
             int a=sc.nextInt();
             int b=sc.nextInt();
            
-           int sub=SumOfNumbers(a,b);
+           int sub=SubOfNumbers(a,b);
            System.out.print(sub);
         }
 }
