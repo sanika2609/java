@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Max{
+
+public static void main(String []args){
+
+double a;
+
+double b;
+
+System.out.println("Enter two numbers");
+
+Scanner sc=new Scanner(System.in);
+
+a=sc.nextDouble();
+
+b=sc.nextDouble();
+
+if(a>b)
+
+System.out.println("Max="+a);
+
+else
+
+System.out.println("Max="+b);
+
+} }
