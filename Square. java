@@ -1,0 +1,39 @@
+import java.util.*;
+
+public class Square{
+
+private static final float side-5;
+
+private float area;
+
+private float perimeter;
+
+void calculate_Area(){
+
+area= (float) (side*side); }
+
+void calculate_perimeter(){
+
+perimeter=(float) (4*side);
+
+}
+
+void display(){
+
+System.out.println("Area of Square="+area);
+
+System.out.println("Perimeter of Square="+perimeter);
+
+public static void main(String []args){
+
+Square sc-new Square();
+
+sc.calculate_Area();
+
+sc.calculate_perimeter();
+
+sc.display();
+
+}
+
+}
