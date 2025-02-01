@@ -1,0 +1,40 @@
+import java.util.ArrayList;
+
+ import java.util.Collections;
+
+ public class ColorList(
+
+public static void main(String[] args){
+
+ ArrayList<String> color=new ArrayList<>();
+
+color.add(e: "Red");
+
+ color.add(e: "Green");
+
+ color.add(e: "Blue");
+
+
+
+color.add(e: "Yellow");
+
+
+
+
+
+color.add(e: "Purple");
+
+
+
+Collections.sort(color);
+
+
+
+System.out.println("Sorted color list:" + color);
+
+
+
+}
+
+}
+
